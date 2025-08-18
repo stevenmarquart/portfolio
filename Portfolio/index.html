@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Steven Marquart</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>STEVEN MARQUART</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html"><i class="fas fa-user"></i>HOME</a></li>
+            <li><a href="#about"><i class="fas fa-user"></i>ABOUT ME</a></li>
+            <li><a href="#school"><i class="fas fa-user"></i>SCHOOL</a></li>
+            <li><a href="#skills"><i class="fas fa-user"></i>SKILLS</a></li>
+            <li><a href="#contact"><i class="fas fa-user"></i>CONTACT</a></li>
+        </ul>
+    </nav>
+    <div style="text-align: center; margin-top: 1rem;">
+        <button id="darkToggle">🌙 Toggle Dark Mode</button>
+    </div>
+    <main>
+        <div id="about" class="section" data-aos="fade-up" data-aos-delay="100">
+            <h2>ABOUT ME</h2>
+            <p>
+                I am Steven Marquart, a detail-driven IT professional currently
+                completing my BS in Information Technology at Purdue Global University.
+                I bring a unique blend of technical expertise and frontline leadership
+                from my role as Lead Pharmacy Technician at Walmart Pharmacy, where I
+                oversee operations and drive process improvements.
+            </p>
+        </div>
+        <div id="school" class="section" data-aos="fade-up" data-aos-delay="200">
+            <h2>School</h2>
+            <p><strong>Purdue Global University</strong> — Bachelor of Science in Information Technology</p>
+            <ul>
+                <li><strong>Expected Graduation:</strong> September 2027</li>
+                <li><strong>Relevant Coursework:</strong> SQL & Database Management, IT Systems, Academic Writing, Technical Communication</li>
+                <li><strong>Academic Strengths:</strong> Structured writing, systems thinking, and real-world application of IT concepts</li>
+            </ul>
+        </div>
+        <div id="skills" class="section" data-aos="fade-up" data-aos-delay="300">
+            <h2>Technical Skills</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Skill Area</th>
+                        <th>Proficiency & Application</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>HTML, CSS &amp; JavaScript</strong></td>
+                        <td>Building responsive layouts, styling with modern CSS, and adding interactivity with vanilla JavaScript</td>
+                    </tr>
+                    <tr>
+                        <td><strong>SQL &amp; Database Management</strong></td>
+                        <td>Advanced querying, normalization, and troubleshooting for business analytics and reporting</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Systems Administration</strong></td>
+                        <td>Windows Server, BIOS configs, and user access management</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Technical Troubleshooting</strong></td>
+                        <td>Diagnosing hardware/software issues, resolving boot errors, and documenting solutions</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Scripting & Automation</strong></td>
+                        <td>Basic scripting in PowerShell and Bash for task automation and system monitoring</td>
+                    </tr>
+                    <tr>
+                        <td><strong>IT Documentation</strong></td>
+                        <td>Creating clear guides and training materials for technical fixes and workflow improvements</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Network Fundamentals</strong></td>
+                        <td>Understanding of TCP/IP, DNS, DHCP, and basic network configuration and security</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Software Tools</strong></td>
+                        <td>Microsoft Access, Excel (pivot tables, formulas), and remote desktop tools</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Soft Skills That Support My IT Work</h3>
+            <ul>
+                <li><strong>Instructional Communication</strong> – Translating technical concepts for non-technical audiences</li>
+                <li><strong>Systems Thinking</strong> – Connecting IT solutions to business needs and user experience</li>
+                <li><strong>Leadership & Collaboration</strong> – Coordinating teams and mentoring peers in both pharmacy and tech contexts</li>
+            </ul>
+        </div>
+        <div id="contact" class="section" data-aos="fade-up" data-aos-delay="300">
+            <h2>Contact</h2>
+            <ul>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/stevenmarquart" target="_blank">linkedin.com/in/stevenmarquart</a></li>
+                <li><strong>Location:</strong> Wichita Falls, TX (Also open to remote or hybrid roles)</li>
+            </ul>
+        </div>
+    </main>
+    <footer style="text-align: center; padding: 1rem; background-color: #34495e; color: white;">
+        &copy; 2025 Steven Marquart. All rights reserved.
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('darkToggle').addEventListener('click', () => {
+                document.body.classList.toggle('dark-mode');
+            });
+        });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
